@@ -18,6 +18,25 @@
 const PI = 3.14159;
 console.log(PI);
 
+// let pode ser reatribuída
+let numero = 10;
+console.log(numero);
+
+// var pode ser redeclarada
+var num = 20;
+console.log(num);
+
+// logica varariavel com let
+if (true) {
+  console.log(numero);
+}
+
 // erro: tentando reatribuir um valor a uma constante
-PI = 3.14;
-console.log(PI);
+//PI = 3.14;
+//console.log(PI);
+
+// let string 
+let nome = 'Lucas';
+console.log('nome '+nome);
+
+
