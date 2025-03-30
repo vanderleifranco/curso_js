@@ -9,9 +9,16 @@ Curso -- Adelia
 Vídeo da aula 03
 https://youtu.be/IUzUe63HOkM
 
+Vídeo da aula 04
+https://www.youtube.com/watch?v=esCsCekBXQY
+
+
 
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
 #Curso -- 
 AULA 01 - executando um script e entendo o lado cliente. 
+AULA 02 - variaveis
+AULA 03 - tipos 
+AULA 04 - funções
