@@ -15,6 +15,9 @@ https://www.youtube.com/watch?v=esCsCekBXQY
 Vídeo da aula 05
 https://www.youtube.com/watch?v=bwhyf00Arow
 
+Vídeo da aula 06
+https://youtu.be/qE4dOSdwm24
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
