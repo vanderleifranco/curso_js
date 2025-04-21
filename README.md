@@ -18,16 +18,20 @@ https://www.youtube.com/watch?v=bwhyf00Arow
 Vídeo da aula 06
 https://youtu.be/qE4dOSdwm24
 
+Vídeo da aula 07 
+https://youtu.be/zZXnN3V4L94
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
 Onde treinar 
 https://www.w3schools.com/js/default.asp
 
-Curso -- 
+Curso
 AULA 01 - executando um script e entendo o lado cliente. 
 AULA 02 - variaveis
 AULA 03 - tipos 
 AULA 04 - funções
 AULA 05 - objetos
 AULA 06 - ARRAYS 
+AULA 07 - DOM
