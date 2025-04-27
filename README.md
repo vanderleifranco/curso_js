@@ -21,6 +21,12 @@ https://youtu.be/qE4dOSdwm24
 Vídeo da aula 07 
 https://youtu.be/zZXnN3V4L94
 
+Vídeo da aula 08 - instalando o node windows
+https://www.youtube.com/watch?v=97l_DqQe62I
+
+Vídeo da aula 08 - TypeScript
+https://www.youtube.com/watch?v=wYJRGQCD5QE
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
@@ -35,3 +41,4 @@ AULA 04 - funções
 AULA 05 - objetos
 AULA 06 - ARRAYS 
 AULA 07 - DOM
+AULA 08 - TypeScript
