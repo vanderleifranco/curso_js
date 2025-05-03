@@ -27,6 +27,9 @@ https://www.youtube.com/watch?v=97l_DqQe62I
 Vídeo da aula 08 - TypeScript
 https://www.youtube.com/watch?v=wYJRGQCD5QE
 
+Vídeo da aula 09 - OO
+https://youtu.be/o1hx1Kn5HSs
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
@@ -42,3 +45,4 @@ AULA 05 - objetos
 AULA 06 - ARRAYS 
 AULA 07 - DOM
 AULA 08 - TypeScript
+AULA 09 - TypeScript e OO
