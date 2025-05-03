@@ -36,13 +36,23 @@ https://www.ime.usp.br/~macmulti/
 Onde treinar 
 https://www.w3schools.com/js/default.asp
 
-Curso
+##Curso
+
 AULA 01 - executando um script e entendo o lado cliente. 
+
 AULA 02 - variaveis
-AULA 03 - tipos 
+
+AULA 03 - tipos
+ 
 AULA 04 - funções
+
 AULA 05 - objetos
-AULA 06 - ARRAYS 
+
+AULA 06 - ARRAYS
+ 
 AULA 07 - DOM
+
 AULA 08 - TypeScript
+
 AULA 09 - TypeScript e OO
+
