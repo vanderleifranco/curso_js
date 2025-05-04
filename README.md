@@ -30,6 +30,8 @@ https://www.youtube.com/watch?v=wYJRGQCD5QE
 Vídeo da aula 09 - OO
 https://youtu.be/o1hx1Kn5HSs
 
+[Conceitos básicos de OO](oo.md)
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
@@ -58,4 +60,6 @@ AULA 07 - DOM
 AULA 08 - TypeScript
 
 AULA 09 - TypeScript e OO
+
+[Conceitos básicos de OO](oo.md)
 
