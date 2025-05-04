@@ -36,6 +36,9 @@ https://www.ime.usp.br/~macmulti/
 Onde treinar 
 https://www.w3schools.com/js/default.asp
 
+Apostila para entender Orientação a Objetos 
+https://docente.ifrn.edu.br/albalopes/semestres-anteriores/2012.1/disciplinas/programacao-orientada-a-objetos-eja/Apostilacaelumjavaobjetosfj11.pdf
+
 ##Curso
 
 AULA 01 - executando um script e entendo o lado cliente. 
