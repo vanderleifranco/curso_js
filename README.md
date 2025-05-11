@@ -63,3 +63,9 @@ AULA 09 - TypeScript e OO
 
 [Conceitos básicos de OO](oo.md)
 
+AULA 101 - EXERCICIOS 
+
+[Exercícos](exercicios.md)
+
+[Respostas](https://playcode.io/2377309)
+
