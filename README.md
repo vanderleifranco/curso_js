@@ -63,9 +63,15 @@ AULA 09 - TypeScript e OO
 
 [Conceitos básicos de OO](oo.md)
 
-AULA 101 - EXERCICIOS 
+AULA 10 - EXERCICIOS 
 
 [Exercícos](exercicios.md)
 
 [Respostas](https://playcode.io/2377309)
+
+AULA 11 CONTROLANDO ATRIBUTOS
+
+Modificadores de Acesso em TypeScript: Eles controlam como os atributos e métodos de uma classe podem ser acessados
+
+https://youtu.be/FmeoJnvq5Gc
 
