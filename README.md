@@ -36,6 +36,10 @@ Vídeo da aula 09 - 11
 
 https://youtu.be/FmeoJnvq5Gc
 
+Vídeo da aula 13
+
+https://youtu.be/VMNdkooQX20
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
