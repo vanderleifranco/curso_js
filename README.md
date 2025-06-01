@@ -32,6 +32,10 @@ https://youtu.be/o1hx1Kn5HSs
 
 [Conceitos básicos de OO](oo.md)
 
+Vídeo da aula 09 - 11
+
+https://youtu.be/FmeoJnvq5Gc
+
 Materia do curso
 https://www.ime.usp.br/~macmulti/
 
@@ -73,5 +77,46 @@ AULA 11 CONTROLANDO ATRIBUTOS
 
 Modificadores de Acesso em TypeScript: Eles controlam como os atributos e métodos de uma classe podem ser acessados
 
-https://youtu.be/FmeoJnvq5Gc
+AULA 13 
 
+```mermaid
+classDiagram
+    class OrdemServico {
+        <<abstract>>
+        +id: number
+        +titulo: string
+        +responsavel: string
+        +executar()*
+        +registrarLog(acao: string)
+    }
+
+    class Priorizavel {
+        <<interface>>
+        +prioridade: number
+        +definirPrioridade(nivel: number)
+    }
+
+    class Auditavel {
+        <<interface>>
+        +gerarAuditoria(): string
+    }
+
+    class OrdemSuporte {
+        +executar()
+        +gerarAuditoria(): string
+    }
+
+    class OrdemProjeto {
+        +prioridade: number
+        +definirPrioridade(nivel: number)
+        +executar()
+        +gerarAuditoria(): string
+    }
+
+    OrdemServico <|-- OrdemSuporte
+    OrdemServico <|-- OrdemProjeto
+    Priorizavel <|.. OrdemProjeto
+    Auditavel <|.. OrdemSuporte
+    Auditavel <|.. OrdemProjeto
+
+```
