@@ -79,44 +79,8 @@ Modificadores de Acesso em TypeScript: Eles controlam como os atributos e métod
 
 AULA 13 
 
-```mermaid
-classDiagram
-    class OrdemServico {
-        <<abstract>>
-        +id: number
-        +titulo: string
-        +responsavel: string
-        +executar()*
-        +registrarLog(acao: string)
-    }
+Abstração, interfaces, polimorfismo. 
 
-    class Priorizavel {
-        <<interface>>
-        +prioridade: number
-        +definirPrioridade(nivel: number)
-    }
+[EXERCÍCICOS - OO](/OOcompletoAPI/exercicios.md)
 
-    class Auditavel {
-        <<interface>>
-        +gerarAuditoria(): string
-    }
-
-    class OrdemSuporte {
-        +executar()
-        +gerarAuditoria(): string
-    }
-
-    class OrdemProjeto {
-        +prioridade: number
-        +definirPrioridade(nivel: number)
-        +executar()
-        +gerarAuditoria(): string
-    }
-
-    OrdemServico <|-- OrdemSuporte
-    OrdemServico <|-- OrdemProjeto
-    Priorizavel <|.. OrdemProjeto
-    Auditavel <|.. OrdemSuporte
-    Auditavel <|.. OrdemProjeto
-
-```
+[SISTEMA - OO](/sistema.md)
