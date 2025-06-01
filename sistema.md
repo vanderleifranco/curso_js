@@ -121,7 +121,7 @@ Implementaria Priorizavel (para definir prioridade máxima).
 Talvez implementasse Auditavel se gerasse logs.
 
 
-´´´mermaid
+```mermaid
 classDiagram
     class OrdemUrgente {
         +prioridade: number = 5
