@@ -121,7 +121,7 @@ Implementaria Priorizavel (para definir prioridade máxima).
 Talvez implementasse Auditavel se gerasse logs.
 
 
-´´´
+´´´mermaid
 flowchart TB
     A[OrdemServico\nAbstrata] --> B[OrdemSuporte]
     A --> C[OrdemProjeto]
