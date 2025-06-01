@@ -122,12 +122,14 @@ Talvez implementasse Auditavel se gerasse logs.
 
 
 ´´´mermaid
-flowchart TB
-    A[OrdemServico\nAbstrata] --> B[OrdemSuporte]
-    A --> C[OrdemProjeto]
-    D[Priorizavel\nInterface] ..|> C
-    E[Auditavel\nInterface] ..|> B
-    E ..|> 
+classDiagram
+    class OrdemUrgente {
+        +prioridade: number = 5
+        +definirPrioridade()
+        +executar()
+    }
+    OrdemServico <|-- OrdemUrgente
+    Priorizavel <|.. OrdemUrgente
 
 ```
 
