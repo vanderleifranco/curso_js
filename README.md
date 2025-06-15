@@ -49,6 +49,9 @@ https://www.w3schools.com/js/default.asp
 Apostila para entender Orientação a Objetos 
 https://docente.ifrn.edu.br/albalopes/semestres-anteriores/2012.1/disciplinas/programacao-orientada-a-objetos-eja/Apostilacaelumjavaobjetosfj11.pdf
 
+Vídeo das aulas 14 e 15
+https://www.youtube.com/watch?v=hD3RAJed7Zg
+
 ##Curso
 
 AULA 01 - executando um script e entendo o lado cliente. 
@@ -88,3 +91,8 @@ Abstração, interfaces, polimorfismo.
 [EXERCÍCICOS - OO](/OOcompletoAPI/exercicios.md)
 
 [SISTEMA - OO](/sistema.md)
+
+AULA 14 15
+
+[ARQUIVOS DE CONFIGURAÇÃO](/JSON.md)
+ 
