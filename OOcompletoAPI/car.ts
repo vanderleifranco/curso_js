@@ -24,20 +24,20 @@ Demonstre o polimorfismo criando instâncias de diferentes pets, adicionando-os 
 
 // abstracao 
 abstract class Pet {
-    constructor(public nome:string){}
+    constructor(public nome: string) { }
     abstract comer(): void
     abstract emitirSom(): void
     //concreta
-    brincar():string{
+    brincar(): string {
         return "feliz"
     }
 }
-interface dormi{
-    dormir():void
+interface dormi {
+    dormir(): void
 }
 
-class Cachorro extends Pet implements dormi{
-    constructor(raca:string, nome:string){
+class Cachorro extends Pet implements dormi {
+    constructor(raca: string, nome: string) {
         super(nome)
     }
     comer(): void {
@@ -50,8 +50,8 @@ class Cachorro extends Pet implements dormi{
         console.log("soninho")
     }
 }
-class Gato extends Pet implements dormi{
-    constructor(raca:string, nome:string){
+class Gato extends Pet implements dormi {
+    constructor(raca: string, nome: string) {
         super(nome)
     }
     comer(): void {
@@ -67,16 +67,16 @@ class Gato extends Pet implements dormi{
 
 // implementando o polimorfismo
 
-class LojaDePets{
-    private pets : Pet[]=[];
-    adicionarPet(animal: Pet):void{
+class LojaDePets {
+    private pets: Pet[] = [];
+    adicionarPet(animal: Pet): void {
         this.pets.push(animal)
         console.log("adicionado com sucesso")
     }
-    interacaoComPet(animal:string){
-        
-        for(let i=0;i< this.pets.length; i++ ){
-            if(this.pets[i].nome === animal){
+    interacaoComPet(animal: string) {
+
+        for (let i = 0; i < this.pets.length; i++) {
+            if (this.pets[i].nome === animal) {
                 console.log(this.pets[i].comer())
                 console.log(this.pets[i].emitirSom())
                 console.log("---")
@@ -92,13 +92,13 @@ class LojaDePets{
             console.log("---");
         });
     }
-    
+
 }
 
 const Loja = new LojaDePets()
 
-Loja.adicionarPet(new Cachorro("vira-lata","lulu"));
-Loja.adicionarPet(new Gato("vira-lata","mimi"));
+Loja.adicionarPet(new Cachorro("vira-lata", "lulu"));
+Loja.adicionarPet(new Gato("vira-lata", "mimi"));
 
 
 Loja.interacaoComPet("lulu")
